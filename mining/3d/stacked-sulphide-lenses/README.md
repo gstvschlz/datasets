@@ -15,6 +15,7 @@ Three dipping polymetallic lenses cut by 289 holes. Synthetic dataset.
 - Composite inside the lens solids and estimate Zn, Pb, Cu, Ag, Au per lens.
 - Estimate density and grade-times-density for correct tonnage and metal.
 - Check the Cu zoning toward the footwall with a local trend.
+- Validate the drill holes in [`raw/`](raw/README.md), a copy of the hole tables with planted data-entry errors.
 
 <sub>Techniques: multivariate · density · domains · solids.</sub>
 
@@ -28,6 +29,10 @@ Three dipping polymetallic lenses cut by 289 holes. Synthetic dataset.
 | [`lens_2.stl`](lens_2.stl) | | 1.3 MB |
 | [`lens_3.stl`](lens_3.stl) | | 1.3 MB |
 | [`lithology.csv`](lithology.csv) | 1 726 | 41 kB |
+| [`raw/assays.csv`](raw/assays.csv) | 16 907 | 0.8 MB |
+| [`raw/collars.csv`](raw/collars.csv) | 290 | 11 kB |
+| [`raw/lithology.csv`](raw/lithology.csv) | 1 726 | 39 kB |
+| [`raw/surveys.csv`](raw/surveys.csv) | 4 326 | 0.1 MB |
 | [`surveys.csv`](surveys.csv) | 4 348 | 0.1 MB |
 | [`topography.csv`](topography.csv) | 18 471 | 0.4 MB |
 
