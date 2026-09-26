@@ -1,5 +1,3 @@
-# geostats-datasets
-
 > 2D and 3D datasets for geostatistics in mining and oil & gas: three classic public sets and thirteen synthetic
 > case studies, each built around the situations real projects throw at you.
 
