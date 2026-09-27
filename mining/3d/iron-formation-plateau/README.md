@@ -13,7 +13,7 @@ Two drilling meshes over the same deposit:
 - **Exploration**: 187 holes on a ~100 m grid rotated 130° (`collars`, `surveys`, `assays`, `lithology`). 2 m samples in ore, 4 m in waste. `FE, SIO2, AL2O3, P, MN, LOI` (%); `DENSITY` in 30 % of samples.
 - **Grade control**: `blastholes.csv`, 1 953 blastholes on a 10 m pattern in part of the pit, three 12 m benches. `FE_PCT` and `SIO2_PCT` only. Each value is the bench average (12 m support instead of 2 m) with a larger analytical error.
 
-Use it for change of support, heterotopic multivariate estimation, and exploration vs grade-control reconciliation. Oxides close to ≤ 100 % (Fe as Fe₂O₃, P as P₂O₅, Mn as MnO). `LITH`: `CG` canga, `HF` friable hematite, `IF` friable itabirite, `HC` compact hematite, `IC` compact itabirite, `LAT` laterite, `MAF` mafic. `block_model.csv`: 25 × 25 × 12 m blocks below topography with `LITH` at the centroid. `iron_formation.stl` (envelope), `high_grade.stl` (HF + HC).
+Use it for change of support, heterotopic multivariate estimation, and exploration vs grade-control reconciliation. Oxides close to ≤ 100 % (Fe as Fe₂O₃, P as P₂O₅, Mn as MnO). `LITH`: `CG` canga, `HF` friable hematite, `IF` friable itabirite, `HC` compact hematite, `IC` compact itabirite, `LAT` laterite, `MAF` mafic. `block_model.csv`: 25 × 25 × 12 m blocks below topography with `LITH` at the centroid. `iron_formation.stl` (envelope). `high_grade.stl` is an interpreted high-grade body (75 Mm³), mostly friable hematite in the upper ~100 m, not a lithology contact: it holds 83 % of the `HF` blocks, 25 % of the `HC` blocks and 27 % of the `IF` blocks, and 80 % of the assays inside it have Fe ≥ 60 %.
 
 ## Suggested exercises
 
