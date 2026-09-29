@@ -1,4 +1,4 @@
-> 2D and 3D datasets for geostatistics in mining and oil & gas: four classic public sets and thirteen synthetic
+> 2D and 3D datasets for geostatistics in mining and oil & gas: five classic public sets and thirteen synthetic
 > case studies, each built around the situations real projects throw at you.
 
 <table>
@@ -15,6 +15,7 @@
 <tr><td width="45%"><a href="mining/3d/tailings-reprocessing"><img src="mining/3d/tailings-reprocessing/tile.jpg" width="100%" alt="Tailings reprocessing"></a></td><td width="55%" valign="middle"><sub>MINING · 3D · SYNTHETIC</sub><h3><a href="mining/3d/tailings-reprocessing">Tailings reprocessing</a></h3>Beach-to-pond layering in a tailings storage facility.<br><br><sub>censored data · facies trend · surfaces</sub></td></tr>
 <tr><td width="55%" valign="middle"><sub>OIL-GAS · 2D · CLASSIC</sub><h3><a href="oil-gas/2d/strebelle">Strebelle</a></h3>The 250 × 250 channel training image.<br><br><sub>training image · MPS · indicator variograms · connectivity</sub></td><td width="45%"><a href="oil-gas/2d/strebelle"><img src="oil-gas/2d/strebelle/tile.jpg" width="100%" alt="Strebelle"></a></td></tr>
 <tr><td width="45%"><a href="oil-gas/2d/seismic-guided-porosity"><img src="oil-gas/2d/seismic-guided-porosity/tile.jpg" width="100%" alt="Seismic-guided porosity"></a></td><td width="55%" valign="middle"><sub>OIL-GAS · 2D · SYNTHETIC</sub><h3><a href="oil-gas/2d/seismic-guided-porosity">Seismic-guided porosity</a></h3>55 wells and an exhaustive seismic grid.<br><br><sub>collocated cokriging · depth conversion · clustered wells</sub></td></tr>
+<tr><td width="55%" valign="middle"><sub>OIL-GAS · 3D · CLASSIC</sub><h3><a href="oil-gas/3d/f3-seismic">F3 seismic</a></h3>A 45 × 45-trace post-stack SEG-Y crop of the F3 survey.<br><br><sub>SEG-Y · seismic geometry · horizons · variography</sub></td><td width="45%"><a href="oil-gas/3d/f3-seismic"><img src="oil-gas/3d/f3-seismic/tile.jpg" width="100%" alt="F3 seismic"></a></td></tr>
 <tr><td width="45%"><a href="oil-gas/3d/deviated-well-logs"><img src="oil-gas/3d/deviated-well-logs/tile.jpg" width="100%" alt="Deviated well logs"></a></td><td width="55%" valign="middle"><sub>OIL-GAS · 3D · SYNTHETIC</sub><h3><a href="oil-gas/3d/deviated-well-logs">Deviated well logs</a></h3>22 deviated wells with logs, tops and a seismic horizon.<br><br><sub>petrophysics · external drift · heterotopic logs</sub></td></tr>
 <tr><td width="55%" valign="middle"><sub>OIL-GAS · 3D · SYNTHETIC</sub><h3><a href="oil-gas/3d/facies-between-horizons">Facies between horizons</a></h3>30 wells with 0.2 m facies between three horizons.<br><br><sub>plurigaussian · proportion trends · stratigraphic grids</sub></td><td width="45%"><a href="oil-gas/3d/facies-between-horizons"><img src="oil-gas/3d/facies-between-horizons/tile.jpg" width="100%" alt="Facies between horizons"></a></td></tr>
 <tr><td width="45%"><a href="oil-gas/3d/fluvial-channel-reservoir"><img src="oil-gas/3d/fluvial-channel-reservoir/tile.jpg" width="100%" alt="Fluvial channel reservoir"></a></td><td width="55%" valign="middle"><sub>OIL-GAS · 3D · SYNTHETIC</sub><h3><a href="oil-gas/3d/fluvial-channel-reservoir">Fluvial channel reservoir</a></h3>Exhaustive channel, levee and splay grid with 18 wells.<br><br><sub>training image · MPS · poro-perm · seismic secondary</sub></td></tr>
@@ -35,4 +36,4 @@ Each folder has its own README with the files, every column with units and range
 
 ## License
 
-Synthetic datasets: [CC BY 4.0](LICENSE). Classic datasets keep their original terms and references (see their folders); `porphyry-geometallurgy` is CC BY-NC-SA 4.0.
+Synthetic datasets: [CC BY 4.0](LICENSE). Classic datasets keep their original terms and references (see their folders); `porphyry-geometallurgy` is CC BY-NC-SA 4.0, `f3-seismic` CC BY-SA 3.0.
