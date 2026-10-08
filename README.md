@@ -41,4 +41,4 @@ Each folder has its own README with the files, every column with units and range
 
 ## License
 
-Synthetic datasets: [CC BY 4.0](LICENSE). Classic datasets keep their original terms and references (see their folders): `walker-lake` and `jura` GPL (≥ 2), the training images (`strebelle`, `bangladesh`, `ohau`, `lena-delta`, `dunes`, `west-coast-africa`) GPL-3.0, `porphyry-geometallurgy` CC BY-NC-SA 4.0, `f3-survey` CC BY-SA 3.0.
+Code (the `geostats-datasets` package and scripts): [MIT](LICENSE-CODE). Synthetic datasets: [CC BY 4.0](LICENSE). Classic datasets keep their original terms and references (see their folders): `walker-lake` and `jura` GPL (≥ 2), the training images (`strebelle`, `bangladesh`, `ohau`, `lena-delta`, `dunes`, `west-coast-africa`) GPL-3.0, `porphyry-geometallurgy` CC BY-NC-SA 4.0, `f3-survey` CC BY-SA 3.0.

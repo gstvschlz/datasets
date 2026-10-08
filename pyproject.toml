@@ -3,7 +3,8 @@ name = "geostats-datasets"
 version = "0.1.0.dev0"
 description = "Download mining and oil & gas geostatistics datasets by name."
 readme = "README.md"
-license = "CC-BY-4.0"
+license = "MIT"
+license-files = ["LICENSE-CODE"]
 authors = [{ name = "Gustavo Pretto Scholze" }]
 requires-python = ">=3.10"
 dependencies = ["pooch>=1.7"]
