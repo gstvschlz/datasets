@@ -16,6 +16,12 @@ _DATA = pooch.create(
 )
 _DATA.load_registry(Path(__file__).with_name("registry.txt"))
 
+# Datasets hosted elsewhere (path, hash, url per tab-separated line), fetched from their own DOI.
+for line in Path(__file__).with_name("external.txt").read_text(encoding="utf-8").splitlines():
+    path, known_hash, url = line.split("\t")
+    _DATA.registry[path] = known_hash
+    _DATA.urls[path] = url
+
 
 def list():
     """Names of all datasets, e.g. 'walker-lake'."""
