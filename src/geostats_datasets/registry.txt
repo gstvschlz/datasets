@@ -134,7 +134,7 @@ oil-gas/3d/deviated-well-logs/tile.jpg f1945bdfa323aea7c34720fc39697fbb7dc9fcef5
 oil-gas/3d/deviated-well-logs/tops.csv c20b98711a245064ef652a931a2b6121c7beb325af735e9f431843ef8a03855e
 oil-gas/3d/deviated-well-logs/trajectories.csv da64494da6b4987f34ea5957833a7b813d36df19e747e9c14474efc3827200ae
 oil-gas/3d/deviated-well-logs/wells.csv be1992ddd53f970895d6c0132f5d321009bafde152318b3962c147f02dceaa7a
-oil-gas/3d/f3-survey/README.md cb5ee05c402f40b5940824cea0b67fc23dce1ecab337ad6175d61c272e9fcb9f
+oil-gas/3d/f3-survey/README.md c2c88933537abcae3e9fcaf73206d6f7fc6e9a37d23072ebc0475730006a078e
 oil-gas/3d/f3-survey/make.py 61d0106fa95b471f0b426a3eb6eebfbe135fd52c8846ad797c9f179290ba2ab4
 oil-gas/3d/f3-survey/preview.png 3bc538d90d9c6a4de45c3991166e7f518805f06cc48a117538ec3d9f2af20c34
 oil-gas/3d/f3-survey/tile.jpg 955ab80d3ed3069c3712255ebef9e74dc9e03f9b0267d7a2eb33f11a9c6f3302

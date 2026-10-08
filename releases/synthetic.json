@@ -1,0 +1,10 @@
+{
+  "datasets": [
+    "coal-seam",
+    "seismic-guided-porosity",
+    "deviated-well-logs",
+    "gold-veins",
+    "zinc-vms-lenses",
+    "iron-formation"
+  ]
+}

@@ -22,6 +22,6 @@ run = "uv run python scripts/make_registry.py"
 description = "Build the wheel and sdist"
 run = "uv build"
 
-[tasks.zenodo]
-description = "Build one zip per dataset for each Zenodo record into dist/zenodo/"
-run = "uv run python scripts/build_zenodo.py"
+[tasks.zips]
+description = "Build one zip per dataset into dist/zips/ for the GitHub data release"
+run = "uv run python scripts/build_zips.py"

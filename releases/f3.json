@@ -1,0 +1,16 @@
+{
+  "datasets": [
+    "f3-survey"
+  ],
+  "untracked": {
+    "f3-survey": [
+      "seismic.sgy",
+      "horizons.csv",
+      "faults.csv",
+      "wells.csv",
+      "logs.csv",
+      "tops.csv",
+      "checkshots.csv"
+    ]
+  }
+}

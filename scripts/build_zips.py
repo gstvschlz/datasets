@@ -1,7 +1,7 @@
-"""Build dist/zenodo/<record>/<dataset>.zip for each Zenodo record in zenodo/*.json.
+"""Build dist/zips/<group>/<dataset>.zip for each release group in releases/*.json.
 
 Each zip holds one dataset folder exactly as stored in git (LF line endings), with fixed
-timestamps so that rebuilding unchanged data gives byte-identical zips. A record's
+timestamps so that rebuilding unchanged data gives byte-identical zips. A group's
 "untracked" lists files too big for git, by dataset; they are read from the dataset folder,
 where the dataset's make.py writes them.
 """
@@ -16,8 +16,8 @@ files = {}
 for path, data in blobs():
     files.setdefault(path.split("/")[2], []).append((path, data))
 
-for record in sorted((ROOT / "zenodo").glob("*.json")):
-    out = ROOT / "dist" / "zenodo" / record.stem
+for record in sorted((ROOT / "releases").glob("*.json")):
+    out = ROOT / "dist" / "zips" / record.stem
     out.mkdir(parents=True, exist_ok=True)
     spec = json.loads(record.read_text(encoding="utf-8"))
     for name in spec["datasets"]:
