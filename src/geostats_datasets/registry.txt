@@ -139,6 +139,10 @@ oil-gas/3d/f3-seismic/crop.py 33fa603ae46d08c2b393b85a2bc7351c0fc267cea6a76e0a7a
 oil-gas/3d/f3-seismic/preview.png 09249d1fa3856ab5aa95b3d88fd28ec539cbcd29888ad7d5075c26ad2731f4f1
 oil-gas/3d/f3-seismic/seismic.sgy ddd2038885a7abd436413fa31dcc600c3972c93f8c0a404282f2057d5f42c703
 oil-gas/3d/f3-seismic/tile.jpg 414f745e28b888bccbca7d57372598d2ec161827064813b1e291ff59e3b8bc1d
+oil-gas/3d/f3-survey/README.md cb5ee05c402f40b5940824cea0b67fc23dce1ecab337ad6175d61c272e9fcb9f
+oil-gas/3d/f3-survey/make.py 61d0106fa95b471f0b426a3eb6eebfbe135fd52c8846ad797c9f179290ba2ab4
+oil-gas/3d/f3-survey/preview.png 3bc538d90d9c6a4de45c3991166e7f518805f06cc48a117538ec3d9f2af20c34
+oil-gas/3d/f3-survey/tile.jpg 955ab80d3ed3069c3712255ebef9e74dc9e03f9b0267d7a2eb33f11a9c6f3302
 oil-gas/3d/facies-between-horizons/README.md 85b4c54235c37ed696f1545d9111ff06dbc649c7361fc61cbf7d188d02a140ac
 oil-gas/3d/facies-between-horizons/facies.csv 8bd649b8432ddfc3aae9e4bdaefeb4149cd18c1e28cfc4000e65666c9123330f
 oil-gas/3d/facies-between-horizons/horizons.csv 4d8540474e182c03ff15222ddb592ed707e0cf56960b49f27be4d580541e14dd
