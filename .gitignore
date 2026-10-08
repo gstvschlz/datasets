@@ -1,0 +1,5 @@
+.venv/
+dist/
+__pycache__/
+oil-gas/3d/f3-survey/*.csv
+oil-gas/3d/f3-survey/*.sgy

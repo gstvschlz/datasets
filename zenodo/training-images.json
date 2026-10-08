@@ -1,0 +1,19 @@
+{
+  "datasets": ["strebelle", "bangladesh", "ohau", "lena-delta", "dunes", "west-coast-africa"],
+  "metadata": {
+    "upload_type": "dataset",
+    "title": "Training images for multiple-point geostatistics as CSV",
+    "creators": [{ "name": "Pretto Scholze, Gustavo" }],
+    "description": "<p>Six categorical training images from the library of Mariethoz &amp; Caers (2014), <i>Multiple-point Geostatistics: Stochastic Modeling with Training Images</i>, converted from GSLIB to CSV with cell-centre coordinates, a README per image (facies codes, proportions, suggested exercises) and a preview. Compiled for teaching; the images belong to their original authors.</p><ul><li><b>strebelle</b>: the 250 × 250 sand/shale channel image (Strebelle, 2002).</li><li><b>bangladesh</b>: a 768 × 243 braided-river channel network.</li><li><b>ohau</b>: the braided Ohau River, New Zealand, 176 × 440.</li><li><b>lena-delta</b>: channels, land and lakes of the Lena River delta, 598 × 600.</li><li><b>dunes</b>: a 114 × 114 three-facies dune field.</li><li><b>west-coast-africa</b>: three 78 × 59 × 116 images of stacked deepwater channels.</li></ul><p>Source library: https://github.com/GAIA-UNIL/trainingimages, GPL-3.0; this copy is shared under the same license.</p>",
+    "access_right": "open",
+    "license": "gpl-3.0-or-later",
+    "keywords": ["geostatistics", "multiple-point statistics", "MPS", "training image", "facies", "fluvial", "deepwater channels"],
+    "related_identifiers": [
+      { "identifier": "https://github.com/gstvschlz/datasets", "relation": "isSupplementTo", "resource_type": "dataset" },
+      { "identifier": "https://github.com/GAIA-UNIL/trainingimages", "relation": "isDerivedFrom", "resource_type": "dataset" },
+      { "identifier": "10.1002/9781118662953", "relation": "cites", "resource_type": "publication-book" },
+      { "identifier": "10.1023/A:1014009426274", "relation": "cites", "resource_type": "publication-article" }
+    ],
+    "version": "1.0.0"
+  }
+}
