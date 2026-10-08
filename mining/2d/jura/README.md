@@ -14,7 +14,7 @@ Seven metals in topsoil, rock and land-use covariates, 100 validation points. Cl
 - Atteia, O., Dubois, J.-P. & Webster, R. (1994). *Environmental Pollution* 86, 315–327. [doi](https://doi.org/10.1016/0269-7491(94)90172-4)
 - Webster, R., Atteia, O. & Dubois, J.-P. (1994). *European Journal of Soil Science* 45, 205–218. [doi](https://doi.org/10.1111/j.1365-2389.1994.tb00502.x)
 
-Taken from the R package [gstat](https://cran.r-project.org/package=gstat).
+Taken from the R package [gstat](https://cran.r-project.org/package=gstat), [GPL (≥ 2)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html); this copy is shared under the same license.
 
 ## Suggested exercises
 

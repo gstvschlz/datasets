@@ -12,7 +12,7 @@
 
 Isaaks, E.H. & Srivastava, R.M. (1989). *An Introduction to Applied Geostatistics*. Oxford University Press.
 
-Taken from the R package [gstat](https://cran.r-project.org/package=gstat).
+Taken from the R package [gstat](https://cran.r-project.org/package=gstat), [GPL (≥ 2)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html); this copy is shared under the same license.
 
 ## Suggested exercises
 
