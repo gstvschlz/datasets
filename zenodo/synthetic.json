@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    "coal-seam-thickness",
+    "seismic-guided-porosity",
+    "deviated-well-logs",
+    "vein-gold-grade-control",
+    "stacked-sulphide-lenses",
+    "iron-formation-plateau"
+  ],
+  "metadata": {
+    "upload_type": "dataset",
+    "title": "Synthetic geostatistics case studies for mining and oil & gas",
+    "creators": [{ "name": "Pretto Scholze, Gustavo" }],
+    "description": "<p>Six synthetic 2D and 3D datasets, each built around a situation real geostatistics projects face. One zip per dataset; each holds a README describing every file and column (units, ranges, missing values) and suggested exercises.</p><ul><li><b>coal-seam-thickness</b>: 295 boreholes, infill drilled where the seam is thick (preferential sampling, declustering, anisotropy, trend).</li><li><b>seismic-guided-porosity</b>: 55 wells and an exhaustive seismic grid (collocated cokriging, depth conversion, clustered wells).</li><li><b>deviated-well-logs</b>: 22 deviated wells with logs, tops and a seismic horizon (petrophysics, heterotopic logs).</li><li><b>vein-gold-grade-control</b>: four steep veins, 118 drill holes and 2 492 channels (extreme skewness, top-cut, indicators, thin domains).</li><li><b>stacked-sulphide-lenses</b>: three dipping polymetallic lenses cut by 289 holes (multivariate, density, domains, solids).</li><li><b>iron-formation-plateau</b>: exploration holes and blastholes over the same deposit (change of support, heterotopic cokriging, closure, block model).</li></ul><p>Conventions: CSV with a header row, empty cell = not measured; local coordinates in metres, Z elevation positive up; units in column names; solids are closed binary STL.</p>",
+    "access_right": "open",
+    "license": "cc-by-4.0",
+    "keywords": ["geostatistics", "mining", "oil and gas", "kriging", "simulation", "drillholes", "resource estimation", "synthetic data"],
+    "related_identifiers": [
+      { "identifier": "https://github.com/gstvschlz/datasets", "relation": "isSupplementTo", "resource_type": "dataset" }
+    ],
+    "version": "1.0.0"
+  }
+}
