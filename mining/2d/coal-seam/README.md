@@ -1,10 +1,10 @@
-# Coal seam thickness
+# Coal seam
 
 <sub>MINING · 2D · SYNTHETIC</sub>
 
 295 boreholes, with infill drilled where the seam is thick. Synthetic dataset.
 
-![Coal seam thickness](preview.png)
+![Coal seam](preview.png)
 
 ## About the data
 

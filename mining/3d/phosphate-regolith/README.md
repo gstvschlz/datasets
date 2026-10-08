@@ -1,10 +1,10 @@
-# Phosphate weathering profile
+# Phosphate regolith
 
 <sub>MINING · 3D · SYNTHETIC</sub>
 
 Weathering horizons under rolling topography. Synthetic dataset.
 
-![Phosphate weathering profile](preview.png)
+![Phosphate regolith](preview.png)
 
 ## About the data
 

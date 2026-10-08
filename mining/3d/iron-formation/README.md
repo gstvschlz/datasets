@@ -1,10 +1,10 @@
-# Iron formation plateau
+# Iron formation
 
 <sub>MINING · 3D · SYNTHETIC</sub>
 
 Exploration holes and blastholes over the same deposit. Synthetic dataset.
 
-![Iron formation plateau](preview.png)
+![Iron formation](preview.png)
 
 ## About the data
 

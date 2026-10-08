@@ -1,6 +1,6 @@
-# Stacked sulphide lenses, raw
+# Zinc VMS lenses, raw
 
-The drill-hole tables of [Stacked sulphide lenses](../README.md) with typical data-entry errors planted, for practising
+The drill-hole tables of [Zinc VMS lenses](../README.md) with typical data-entry errors planted, for practising
 drill-hole validation. All 289 holes are kept; columns and conventions are those of the clean files.
 `make_raw.py` rebuilds these files from the clean ones (fixed seed) and prints where each error landed.
 

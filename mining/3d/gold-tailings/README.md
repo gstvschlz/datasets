@@ -1,10 +1,10 @@
-# Tailings reprocessing
+# Gold tailings
 
 <sub>MINING · 3D · SYNTHETIC</sub>
 
 Beach-to-pond layering in a tailings storage facility. Synthetic dataset.
 
-![Tailings reprocessing](preview.png)
+![Gold tailings](preview.png)
 
 ## About the data
 

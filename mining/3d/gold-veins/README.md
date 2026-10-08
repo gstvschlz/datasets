@@ -1,10 +1,10 @@
-# Vein gold grade control
+# Gold veins
 
 <sub>MINING · 3D · SYNTHETIC</sub>
 
 Four steep veins, 118 drill holes and 2 492 channels. Synthetic dataset.
 
-![Vein gold grade control](preview.png)
+![Gold veins](preview.png)
 
 ## About the data
 

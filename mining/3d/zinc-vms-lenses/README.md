@@ -1,10 +1,10 @@
-# Stacked sulphide lenses
+# Zinc VMS lenses
 
 <sub>MINING · 3D · SYNTHETIC</sub>
 
 Three dipping polymetallic lenses cut by 289 holes. Synthetic dataset.
 
-![Stacked sulphide lenses](preview.png)
+![Zinc VMS lenses](preview.png)
 
 ## About the data
 

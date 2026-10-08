@@ -1,10 +1,10 @@
-# Nickel laterite profile
+# Nickel laterite
 
 <sub>MINING · 3D · SYNTHETIC</sub>
 
 448 vertical holes on a 50 m mesh with 25 m infill. Synthetic dataset.
 
-![Nickel laterite profile](preview.png)
+![Nickel laterite](preview.png)
 
 ## About the data
 

@@ -1,10 +1,10 @@
-# Soil geochemistry survey
+# Gold-copper soils
 
 <sub>MINING · 2D · SYNTHETIC</sub>
 
 1 227 line samples, detection limits and exhaustive covariates. Synthetic dataset.
 
-![Soil geochemistry survey](preview.png)
+![Gold-copper soils](preview.png)
 
 ## About the data
 
