@@ -1,16 +1,47 @@
 [project]
 name = "geostats-datasets"
-version = "0.1.0.dev0"
+dynamic = ["version"]
 description = "Download mining and oil & gas geostatistics datasets by name."
-readme = "README.md"
+readme = { content-type = "text/markdown", text = """
+# geostats-datasets
+
+Download 2D and 3D geostatistics datasets for mining and oil & gas by name: classic public
+sets (Walker Lake, Jura, Strebelle and other training images, the F3 survey) and synthetic
+case studies (drill holes, blastholes, block models, well logs, solids).
+
+```python
+import geostats_datasets as gd
+
+gd.list()                              # ['bangladesh', 'coal-seam', ...]
+folder = gd.fetch("walker-lake")       # downloads once, returns the local folder
+sample = gd.fetch("walker-lake", "sample.csv")
+```
+
+Or from the shell: `python -m geostats_datasets fetch walker-lake`.
+
+Each dataset comes as a zip from the repository's GitHub data release, checked against its
+sha256 and cached per user (set `GEOSTATS_DATASETS_DIR` to move the cache). Every folder has a
+README with each file, each column, units, ranges and suggested exercises.
+
+Catalogue, previews and licenses: https://github.com/gstvschlz/datasets
+""" }
 license = "MIT"
 license-files = ["LICENSE-CODE"]
 authors = [{ name = "Gustavo Pretto Scholze" }]
 requires-python = ">=3.10"
 dependencies = ["pooch>=1.7"]
+keywords = ["geostatistics", "datasets", "mining", "oil and gas", "kriging", "training images", "drill holes"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Education",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: GIS",
+]
 
 [project.urls]
-Repository = "https://github.com/gstvschlz/datasets"
+Homepage = "https://github.com/gstvschlz/datasets"
+Issues = "https://github.com/gstvschlz/datasets/issues"
 
 [dependency-groups]
 dev = ["pytest>=8", "ruff>=0.6"]
@@ -19,10 +50,13 @@ dev = ["pytest>=8", "ruff>=0.6"]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
+[tool.hatch.version]
+path = "src/geostats_datasets/__init__.py"
+
 [tool.hatch.build.targets.sdist]
-include = ["src", "tests", "scripts"]
+include = ["src"]
 
 [tool.ruff]
 line-length = 100
-# Dataset scripts are data provenance: reformatting them would change their published hashes.
+# Dataset scripts are data provenance: reformatting them would change their published zips.
 extend-exclude = ["mining", "oil-gas"]

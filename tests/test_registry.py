@@ -1,13 +1,21 @@
 import subprocess
-import sys
 from pathlib import Path
+
+import geostats_datasets
 
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def test_registry_matches_tracked_files():
-    """Every dataset file in git is in registry.txt with its current sha256."""
-    check = subprocess.run(
-        [sys.executable, ROOT / "scripts" / "make_registry.py", "--check"], check=False
+def test_registry_lists_every_dataset():
+    """registry.txt has one zip per dataset folder in git."""
+    tracked = subprocess.run(
+        ["git", "ls-files", "mining", "oil-gas"],
+        cwd=ROOT,
+        check=True,
+        capture_output=True,
+        text=True,
+    ).stdout.splitlines()
+    folders = {path.split("/")[2] for path in tracked}
+    assert set(geostats_datasets.list()) == folders, (
+        "registry.txt is stale: run `mise run zips` and publish a new data release"
     )
-    assert check.returncode == 0, "registry.txt is stale: run `mise run registry`"

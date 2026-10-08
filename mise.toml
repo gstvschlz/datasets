@@ -7,21 +7,17 @@ description = "Create the venv with dev dependencies"
 run = "uv sync"
 
 [tasks.test]
-description = "Run the tests, including the registry hash check"
+description = "Run the tests"
 run = "uv run pytest"
 
 [tasks.lint]
 description = "Lint and check formatting"
 run = ["uv run ruff check", "uv run ruff format --check"]
 
-[tasks.registry]
-description = "Rewrite registry.txt from the dataset files staged in git"
-run = "uv run python scripts/make_registry.py"
+[tasks.zips]
+description = "Build dist/zips/<dataset>.zip for a data release and rewrite registry.txt"
+run = "uv run python scripts/build_zips.py"
 
 [tasks.build]
 description = "Build the wheel and sdist"
 run = "uv build"
-
-[tasks.zenodo]
-description = "Build one zip per dataset for each Zenodo record into dist/zenodo/"
-run = "uv run python scripts/build_zenodo.py"

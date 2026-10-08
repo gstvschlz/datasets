@@ -8,7 +8,7 @@ The full F3 post-stack cube, Dutch North Sea, with horizons, a fault and four we
 
 ## About the data
 
-**The data files are not in this repository** (0.85 GB); download them from the Zenodo record, or rebuild them with `python make.py F3_Demo_2023.zip` from the [F3 Demo 2023](https://terranubis.com/datainfo/F3-Demo-2023) project on TerraNubis.
+**The data files are not in this repository** (0.85 GB): `geostats_datasets.fetch("f3-survey")` downloads them as [`f3-survey.zip`](https://github.com/gstvschlz/datasets/releases/download/data-v1.0.0/f3-survey.zip) (0.55 GB) from the `data-v1.0.0` release, or rebuild them with `python make.py F3_Demo_2023.zip` from the [F3 Demo 2023](https://terranubis.com/datainfo/F3-Demo-2023) project on TerraNubis.
 
 `seismic.sgy` is the project's `Rawdata/Seismic_data.sgy`, byte for byte: inlines 100 – 750, crosslines 300 – 1250 (600 515 of 619 101 traces present), two-way time 4 – 1848 ms at 4 ms (462 samples), 25 m bins. Amplitudes are 2-byte integers (format 3), big-endian SEG-Y rev 1. Inline and crossline numbers are at trace-header bytes 189 and 193, CDP X and Y at 181 and 185, scaled by the coordinate scalar at byte 71 (−10: stored in decimetres). Coordinates are in ED50 / UTM zone 31N (EPSG:23031), as the textual header states.
 

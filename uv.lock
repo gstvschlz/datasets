@@ -197,7 +197,6 @@ wheels = [
 
 [[package]]
 name = "geostats-datasets"
-version = "0.1.0.dev0"
 source = { editable = "." }
 dependencies = [
     { name = "pooch" },
