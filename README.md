@@ -29,6 +29,20 @@
 
 Each folder has its own README with the files, every column with units and ranges, and suggested exercises.
 
+## Download
+
+From Python (`pip install geostats-datasets`):
+
+```python
+import geostats_datasets as gd
+
+gd.list()  # all dataset names
+folder = gd.fetch("walker-lake")  # downloads once, returns the local folder
+sample = gd.fetch("walker-lake", "sample.csv")
+```
+
+From the shell: `python -m geostats_datasets fetch walker-lake`. Or download any dataset as a zip from the [data release](https://github.com/gstvschlz/datasets/releases/tag/data-v1.0.0).
+
 ## Conventions
 
 - CSV with a header row; an empty cell means not measured.
